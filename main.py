@@ -38,7 +38,7 @@ col = mongo.db["admin"]
 
 @app.route('/')
 def index():
-  return "<h1>Welcome to CodingX</h1>"
+  return "<h1>DL</h1>"
 
 def get_random_alphanumeric_password(letters_count, digits_count):
     sample_str = ''.join((random.choice(string.ascii_letters) for i in range(letters_count)))
