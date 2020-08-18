@@ -4,6 +4,7 @@ dnspython==2.0.0
 Flask==1.1.2
 Flask-Cors==3.0.8
 Flask-PyMongo==2.3.0
+gunicorn==19.0.0
 itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
